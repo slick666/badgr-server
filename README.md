@@ -58,7 +58,7 @@ badgr
 * `npm install`
 
 ### Customize local settings to your environment
-* `cp apps/mainsite/settings_local.py.example apps/mainsite/settings_local.py`
+* `cp apps/mainsite/settings_docker.py.example apps/mainsite/settings_docker.py`
 * Edit the settings_local.py file and insert local credentials for DATABASES and email, then run the following from within the `code` directory:
 
 ### Migrate databases, build front-end components

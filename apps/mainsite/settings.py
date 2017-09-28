@@ -393,19 +393,3 @@ def determine_version():
     return mainsite.__version__
 
 ARTIFACT_VERSION = determine_version()
-
-
-##
-#
-#  Import settings_local.
-#
-##
-
-try:
-    from settings_local import *
-except ImportError as e:
-    import traceback
-    traceback.print_exc()
-    sys.stderr.write("no settings_local found, setting DEBUG=True...\n")
-    DEBUG = True
-

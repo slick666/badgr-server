@@ -1,0 +1,5 @@
+# Requirements to run with docker-compose
+-r base.txt
+
+# Postgres Support
+psycopg2

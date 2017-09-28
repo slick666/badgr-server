@@ -6,7 +6,7 @@
 MySQL-python==1.2.5
 
 # Memcached cache
-python-memcached==1.53\
+python-memcached==1.53
 
 # Email support
 boto==2.33.0

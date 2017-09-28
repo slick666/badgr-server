@@ -40,7 +40,6 @@ rules==0.4
 
 # Some extras
 Django-Select2==4.2.2
-django-debug-toolbar==1.2.2
 MarkupSafe==0.23
 django-autoslug==1.7.2
 jingo==0.4
@@ -67,6 +66,7 @@ git+https://github.com/concentricsky/python-randomnames@v1.0.3
 # Badgr related utilities
 openbadges-bakery==0.4
 
+# Celery
 celery==3.1.18
 django-celery==3.1.16
 python-json-logger==0.1.2
