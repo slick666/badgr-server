@@ -14,7 +14,7 @@ Prerequisites:
 * npm
 * grunt, grunt-cli
 * sass (requires ruby)
-* mysql
+* sqlite3
   
 #### Optional extras:
 
@@ -54,7 +54,7 @@ badgr
 ### Install requirements
 *from within code directory* 
 
-* `pip install -r requirements-dev.txt`
+* `pip install -r requirements/dev.txt`
 * `npm install`
 
 ### Customize local settings to your environment

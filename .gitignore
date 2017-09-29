@@ -1,5 +1,4 @@
 *.pyc
-settings_local.py
 .*.sw*
 *~
 .DS_Store
@@ -25,3 +24,5 @@ breakdown/static/css/*.map
 build/badgebook/
 
 test.cache/
+
+apps/mainsite/settings_*.py
